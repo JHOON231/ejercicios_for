@@ -1,9 +1,7 @@
 body {
   margin: 0;
-  font-family: 'Segoe UI', sans-serif;
-  background: radial-gradient(circle at top, #0f2027, #203a43, #2c5364);
-  color: white;
-
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,39 +10,53 @@ body {
 
 /* CONTENEDOR */
 .container {
-  background: rgba(0,0,0,0.7);
-  backdrop-filter: blur(10px);
+  background: #ffffff;
   padding: 30px;
-  border-radius: 20px;
+  border-radius: 25px;
   text-align: center;
   width: 90%;
   max-width: 400px;
 
-  box-shadow: 0 0 30px rgba(0,255,204,0.3);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
 }
 
 /* TITULO */
 h1 {
+  color: #ff6f61;
   margin-bottom: 10px;
-  text-shadow: 0 0 10px #00ffcc;
 }
 
 /* BOTÓN */
 .btn {
-  padding: 10px 20px;
+  padding: 12px 25px;
   border: none;
-  border-radius: 20px;
-  background: linear-gradient(45deg, #00ffcc, #00ccff);
-  color: black;
+  border-radius: 30px;
+  background: #ffcc00;
+  color: #333;
   font-weight: bold;
   cursor: pointer;
   margin-bottom: 15px;
+  font-size: 16px;
+
   transition: 0.3s;
 }
 
 .btn:hover {
+  background: #ffaa00;
   transform: scale(1.1);
-  box-shadow: 0 0 15px #00ffcc;
+}
+
+input {
+  margin-top: 10px;
+  padding: 12px;
+  border-radius: 20px;
+  border: 3px solid #ffcc00;
+  text-align: center;
+  font-size: 16px;
+  width: 80%;
+
+  background: #fff7cc;
+  font-weight: bold;
 }
 
 /* TABLA */
@@ -54,24 +66,27 @@ h1 {
 
 /* FILAS */
 .fila {
-  background: rgba(255,255,255,0.1);
+  background: #ffecd2;
   margin: 8px 0;
-  padding: 10px;
-  border-radius: 10px;
+  padding: 12px;
+  border-radius: 15px;
   font-size: 18px;
+  color: #333;
+  font-weight: bold;
+
   transition: 0.3s;
 }
 
 .fila:hover {
+  background: #ffd166;
   transform: scale(1.05);
-  background: rgba(0,255,204,0.2);
 }
 
 /* FOOTER */
 .footer {
   margin-top: 15px;
   font-size: 12px;
-  color: #aaa;
+  color: #888;
 }
 
 /* RESPONSIVE */
