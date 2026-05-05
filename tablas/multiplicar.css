@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: radial-gradient(circle at top, #0f2027, #203a43, #2c5364);
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* CONTENEDOR */
+.container {
+  background: rgba(0,0,0,0.7);
+  backdrop-filter: blur(10px);
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+
+  box-shadow: 0 0 30px rgba(0,255,204,0.3);
+}
+
+/* TITULO */
+h1 {
+  margin-bottom: 10px;
+  text-shadow: 0 0 10px #00ffcc;
+}
+
+/* BOTÓN */
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  background: linear-gradient(45deg, #00ffcc, #00ccff);
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 15px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px #00ffcc;
+}
+
+/* TABLA */
+.tabla {
+  margin-top: 15px;
+}
+
+/* FILAS */
+.fila {
+  background: rgba(255,255,255,0.1);
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.fila:hover {
+  transform: scale(1.05);
+  background: rgba(0,255,204,0.2);
+}
+
+/* FOOTER */
+.footer {
+  margin-top: 15px;
+  font-size: 12px;
+  color: #aaa;
+}
+
+/* RESPONSIVE */
+@media (max-width: 500px) {
+  .fila {
+    font-size: 16px;
+  }
+}
